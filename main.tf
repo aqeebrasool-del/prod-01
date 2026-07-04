@@ -18,4 +18,9 @@ resource "azurerm_resource_group" "croatia" {
 resource "azurerm_resource_group" "feature2" {
    name     = "feature2.1"
     location = "West Europe"
+  }
+
+resource "azurerm_resource_group" "feature22" {
+   name     = "feature22"
+    location = "West India"
 }
