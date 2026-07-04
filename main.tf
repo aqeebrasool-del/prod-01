@@ -24,3 +24,7 @@ resource "azurerm_resource_group" "feature22" {
    name     = "feature22"
     location = "West India"
 }
+resource "azurerm_resource_group" "feature44" {
+   name     = "feature44"
+    location = "West afgan"
+}
