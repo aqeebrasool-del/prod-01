@@ -19,3 +19,7 @@ resource "azurerm_resource_group" "feature2" {
    name     = "feature2.1"
     location = "West Europe"
 }
+resource "azurerm_resource_group" "feature33" {
+   name     = "feature33"
+    location = "West US"
+}
