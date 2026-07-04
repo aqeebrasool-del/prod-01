@@ -11,11 +11,14 @@ resource "azurerm_resource_group" "example" {
    name     = "rg3"
     location = "West Europe"
 }
-
+resource "azurerm_resource_group" "croatia" {
+   name     = "croatia"
+    location = "central Europe"
+}
 resource "azurerm_resource_group" "feature2" {
    name     = "feature2.1"
     location = "West Europe"
-}
+  }
 
 resource "azurerm_resource_group" "feature22" {
    name     = "feature22"
