@@ -4,6 +4,12 @@ resource "azurerm_resource_group" "example" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "rg2"
-  location = "West Europe"
+   name     = "rg2"
+    location = "West Europe"
 }
+resource "azurerm_resource_group" "example" {
+   name     = "rg3"
+    location = "West Europe"
+}
+
+
