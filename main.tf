@@ -12,4 +12,7 @@ resource "azurerm_resource_group" "example" {
     location = "West Europe"
 }
 
-
+resource "azurerm_resource_group" "feature2" {
+   name     = "feature2.1"
+    location = "West Europe"
+}
